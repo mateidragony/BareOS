@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "bareio.h": "c",
+        "barelib.h": "c",
+        "stdbool.h": "c",
+        "shell.h": "c",
+        "ctype.h": "c",
+        "cstddef": "c",
+        "interrupts.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "sstream": "c",
+        "syscall.h": "c",
+        "thread.h": "c",
+        "cstdlib": "c",
+        "malloc.h": "c",
+        "string.h": "c",
+        "queue.h": "c",
+        "chrono": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

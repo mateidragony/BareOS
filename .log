@@ -1,0 +1,41 @@
+
+Running [1] general tests... DONE
+Running [3] suspend tests... DONE
+Running [3] resume tests... DONE
+Running [3] join tests... DONE
+Running [5] resched tests... DONE
+Running [4] shell tests... DONE
+
+----------------------------
+
+General Tests:
+  Program Compiles:                   OK
+
+Suspend Tests:
+  Indicated thread was suspended:     OK
+  Invalid threads not suspended:      OK
+  Raises RESCHED signal:              OK
+
+Resume Tests:
+  Indicated thread was readied:       OK
+  Invalid threads are ignored:        OK
+  Raises RESCHED signal:              OK
+
+Join Tests:
+  Frees awaited thread:               FAIL - RESCHED raised when thread was already DEFUNCT
+  Returns the thread's return value:  OK
+  Blocks until thread is defunct:     FAIL - 'join_thread' not busy waiting on RESCHED when thread is SUSPEND
+
+Resched Tests:
+  Alternates between two threads:     OK
+  Cycles between three threads:       OK
+  Sets old thread as ready:           OK
+  Sets the current thread:            OK
+  Sets the new thread to running:     OK
+
+Shell Tests:
+  Creates applications with threads:  OK
+  Calls `create_thread`:              OK
+  Calls `resume_thread`:              OK
+  Calls `join_thread`:                OK
+
