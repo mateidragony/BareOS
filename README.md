@@ -1,6 +1,6 @@
 # BareOS 🐻
 
-This is my implementation of the very bare-bones operating system that was the semester long project of the Operating Systems course (CSCI-P 436) course at Luddy. This project was a very VERY fun learning experience and a great opportunity to mess around. I'd say that 50% of the code in this repository is assignment code, and the other 50% is me just having a grand old time.
+This is my implementation of the very bare-bones operating system that was the semester long project of the Operating Systems course (CSCI-P 436) at IU Luddy. This project was a very VERY fun learning experience and a great opportunity to mess around. I'd say that 50% of the code in this repository is assignment code, and the other 50% is me just having a grand old time.
 
 ## About
 
